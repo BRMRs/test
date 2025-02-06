@@ -1,0 +1,28 @@
+
+.container {
+    max-width: 880px;
+}
+
+#section-markdown div{
+    max-width: 900px;
+    /* p是普通正文 */
+    p {
+        line-height: 1.5;
+        font-size: 17px;
+    }
+    /* ul是开头带·的正文 */
+    ul {
+        line-height: 24px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+/*project和pub内部宽度*/
+.mx-auto.flex.max-w-screen-xl{
+    max-width: 100%; 
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}

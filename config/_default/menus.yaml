@@ -1,0 +1,42 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+  #     desired widget in your `content/home/` folder.
+  #   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: '/'
+    weight: 10
+#  - name: News
+#    url: '#sider'
+#    weight: 20  
+  - name: Projects
+    url: '/#projects'
+    weight: 30
+  - name: Publications
+    url: '/#publications'
+    weight: 50
+#  - name: Experience
+#    url: '/experience'
+#    weight: 55  
+ # - name: Services
+ #   url: page/services
+ #   weight: 62
+  - name: Awards etc
+    url: 'awards/'
+    weight: 80
+  - name: Group & Recruit
+    url: 'group/'
+    weight: 85
+  - name: Fun Facts
+    url: 'fun/'
+    weight: 90
+  - name: Blog
+  #   params:
+  #     rel: external
+  #   pre: <i class="fa fa-heart"></i>
+    url: https://bigaidream-gardens.github.io/
+    weight: 95
+  - name: Contact
+    url: 'contact/'
+    weight: 100
